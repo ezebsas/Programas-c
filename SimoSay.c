@@ -25,6 +25,8 @@
 #bit  RA4 = 0x05.4
 #byte   INTCON = 0x0B
 
+void Board( void );
+void PedirTecla( void );
 
 int key=NO_KEY;
 int aleatorio, nivel, tam, i,color_leido, color_pulsado, dir_lectura,paso,leido;
@@ -102,7 +104,7 @@ void genera_aleatorio(){
 
 void guardaSec(){
    write_eeprom(paso,aleatorio);  // Guardamos el color generado y apuntamos a
-   paso++;                        //  la siguiente dirección para una próxima
+   paso++;                        //  la siguiente direcciÃ³n para una prÃ³xima
 }                                       //  escritura
  
 
@@ -114,17 +116,17 @@ void mostrarSec(void){
 	while(color_leido==15){portb=0x80;}
 	tono(color_leido);
 	enciende_led(color_leido);		
-	retardo(nivel);                           // Retardo según nivel de dificultad
+	retardo(nivel);                           // Retardo segÃºn nivel de dificultad
 	PORTB = 0;                                // Apaga led
-	retardo(nivel);                           // Retardo según nivel de dificultad
+	retardo(nivel);                           // Retardo segÃºn nivel de dificultad
 		
     }
 }
 
 
 void comprueba(){
-    leido = read_eeprom(dir_lectura);  // Leemos la dirección eeprom correspondiente.
-    if(leido != color_pulsado)         // Si la pulsación no ha sido correcta,acaba el
+    leido = read_eeprom(dir_lectura);  // Leemos la direcciÃ³n eeprom correspondiente.
+    if(leido != color_pulsado)         // Si la pulsaciÃ³n no ha sido correcta,acaba el
     {                                 //  juego y volvemos al principio del programa
 	mal = true;
     }
@@ -138,16 +140,16 @@ void ingr_datos(void){
     /* Recogemos las pulsaciones y se va comprobando si son correctas hasta que
     //  alguna no lo sea o hasta que hayamos acertado todos los colores guardados
     //  hasta el momento.
-    // dir_escritura contiene la dirección eeprom siguiente al último color guardado
-    //  y dir_lectura la usamos para ir consultando cada posición de memoria y comprobar
-    //  si la pulsación ha sido correcta.En el momento en que fallemos alguna,fin_juego toma
+    // dir_escritura contiene la direcciÃ³n eeprom siguiente al Ãºltimo color guardado
+    //  y dir_lectura la usamos para ir consultando cada posiciÃ³n de memoria y comprobar
+    //  si la pulsaciÃ³n ha sido correcta.En el momento en que fallemos alguna,fin_juego toma
     //  el valor TRUE.
-    // Durante la ejecución del bucle,aleatorio irá cambiando de valor,hasta que pulsemos el
-    //  último color,momento en el cual salimos del bucle y guardamos aleatorio en memoria.*/
+    // Durante la ejecuciÃ³n del bucle,aleatorio irÃ¡ cambiando de valor,hasta que pulsemos el
+    //  Ãºltimo color,momento en el cual salimos del bucle y guardamos aleatorio en memoria.*/
     while((dir_lectura < paso) && (!mal)){		
 	sal = false;
 	//output_b(0x10);delay_ms(1000);output_b(0x20);delay_ms(1000);output_b(0x40);delay_ms(1000);output_b(0x80);delay_ms(1000);
-	while(!sal)  // Mientras no haya pulsación nos mantenemos dentro del bucle
+	while(!sal)  // Mientras no haya pulsaciÃ³n nos mantenemos dentro del bucle
 	{
 	    genera_aleatorio();           // Para conseguir aleatoriedad en los colores guardados
 	    Board();
@@ -169,11 +171,11 @@ void ingr_datos(void){
 		sal = true;
 	    }
 	}		
-	comprueba();   // Algoritmo que comprueba si la pulsación ha sido correcta
+	comprueba();   // Algoritmo que comprueba si la pulsaciÃ³n ha sido correcta
 	enciende_led(color_pulsado);  // Enciende el led del color que hemos pulsado
 	tono(color_pulsado);       // Genera el tono del color que hemos pulsado
 	PORTB = 0;                    // Apagamos led
-	dir_lectura++;                // Para comprobar la siguiente dirección eeprom
+	dir_lectura++;                // Para comprobar la siguiente direcciÃ³n eeprom
     }
 }
 
@@ -200,7 +202,7 @@ void main (void){
     set_tris_B(0);
     set_tris_A(0b00011111); 
     INTCON=0;
-    enable_interrupts(INT_EEPROM); // Unica interrupción habilitada durante toda la ejecución
+    enable_interrupts(INT_EEPROM); // Unica interrupciÃ³n habilitada durante toda la ejecuciÃ³n
     enable_interrupts(GLOBAL);     // Habilitador general de interrupciones
     gano=false;
     nivel=0;
@@ -273,6 +275,7 @@ void Board( void )
     EstadosEstables = 0;    
     PedirTecla();    
     CodigoAnterior = CodigoActual;
+    key = NO_KEY;
     while (estadoRebotes != FinREBOTES){
 	
 	if(CodigoActual != CodigoAnterior || CodigoActual == NO_KEY ){
