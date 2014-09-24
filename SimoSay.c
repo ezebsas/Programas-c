@@ -4,7 +4,7 @@
 #include <stdlib.h>
 
 #define NO_KEY		255
-#define FinREBOTES	255
+#define FinREBOTES	100000
 #define ROJO		1
 #define VERDE		2
 #define AZUL		3
@@ -34,7 +34,7 @@ short mal, gano;
 // Board
 int CodigoActual;
 int CodigoAnterior;
-int EstadosEstables;
+int16 EstadosEstables;
 
 
 void retardo(int latencia){
