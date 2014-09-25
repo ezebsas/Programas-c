@@ -4,13 +4,13 @@
 #include <stdlib.h>
 
 #define NO_KEY		255
-#define FinREBOTES	100000
+#define FinREBOTES	255
 #define ROJO		1
 #define VERDE		2
 #define AZUL		3
 #define AMARILLO	4
 #define INICIO		5
-#define CANTIDAD_DE_REBOTES		100
+#define CANTIDAD_DE_REBOTES		10000
 
 #use fast_io(A)
 #use fast_io(B)
@@ -25,8 +25,7 @@
 #bit  RA4 = 0x05.4
 #byte   INTCON = 0x0B
 
-void Board( void );
-void PedirTecla( void );
+void Board();
 
 int key=NO_KEY;
 int aleatorio, nivel, tam, i,color_leido, color_pulsado, dir_lectura,paso,leido;
@@ -35,7 +34,7 @@ short mal, gano;
 int CodigoActual;
 int CodigoAnterior;
 int16 EstadosEstables;
-
+int estadoRebotes;
 
 void retardo(int latencia){
     switch(latencia){
@@ -91,15 +90,15 @@ void enciende_led(int color)  // Enciende el led correspondiente
 	    break;
 	case AZUL: output_b(8);     // Led azul
 	    break;
-	default: PORTB = 15;             // Los 4 leds
+	default: PORTB = 14;             // Los 4 leds
 	    break;
     }
 }
 
 
 void genera_aleatorio(){
-    aleatorio ++;
     aleatorio %= 4;
+    aleatorio ++;
 }
 
 void guardaSec(){
@@ -113,7 +112,7 @@ void mostrarSec(void){
     for(dir_lectura = 0; dir_lectura< paso; dir_lectura++)
     {
 	color_leido = read_eeprom(dir_lectura);	 	
-	while(color_leido==15){portb=0x80;}
+	//while(color_leido==15){portb=0x80;}
 	tono(color_leido);
 	enciende_led(color_leido);		
 	retardo(nivel);                           // Retardo según nivel de dificultad
@@ -170,10 +169,17 @@ void ingr_datos(void){
 		color_pulsado = AZUL;
 		sal = true;
 	    }
-	}		
-	comprueba();   // Algoritmo que comprueba si la pulsación ha sido correcta
-	enciende_led(color_pulsado);  // Enciende el led del color que hemos pulsado
+	}
+	enciende_led(color_pulsado); 
 	tono(color_pulsado);       // Genera el tono del color que hemos pulsado
+	
+	while(key != NO_KEY){
+		Board();
+	}
+			
+	comprueba();   // Algoritmo que comprueba si la pulsación ha sido correcta
+	//enciende_led(color_pulsado);  // Enciende el led del color que hemos pulsado
+	
 	PORTB = 0;                    // Apagamos led
 	dir_lectura++;                // Para comprobar la siguiente dirección eeprom
     }
@@ -190,9 +196,7 @@ void demo( void ){  /*demostracion prenden los leds aleatoriamente*/
 	    case 2: output_b(4);aleatorio=3;tono(3);break;
 	    case 3: output_b(8);aleatorio=4;tono(4);break;
 	}
-	delay_ms(200);if(RA4){break;}delay_ms(200);if(RA4){break;}delay_ms(200);if(RA4){break;}delay_ms(200);if(RA4){break;}
-	portb=0x00;
-	delay_ms(200);if(RA4){break;}delay_ms(200);if(RA4){break;}delay_ms(200);if(RA4){break;}delay_ms(200);if(RA4){break;} 
+	delay_ms(700);	
 	Board();
     }
 }
@@ -208,47 +212,60 @@ void main (void){
     nivel=0;
 
     while(TRUE){
-  	paso = dir_lectura = color_leido = leido = color_pulsado = 0;   
-	mal=false;		
-  	if(!gano){
-	    tam=6;
-	}
-	demo();
-	guardaSec();	//Guarda en la memoria eeprom el valor de la secuencia	el valor aleatorio generado en la demo   	
-   	/*inicia el modo juego*/ 
-	output_b(1);delay_ms(150);output_b(2);delay_ms(150);output_b(4);delay_ms(150);output_b(8);delay_ms(150);
-	portb=0x00;delay_ms(1000);
-	mostrarSec();
-
-	while( paso < tam && !mal ){   /*verifica si acierta o si erra*/
-	    //output_b(0x10);delay_ms(1000);output_b(0x20);delay_ms(1000);output_b(0x40);delay_ms(1000);output_b(0x80);delay_ms(1000);
-	    ingr_datos();
-	    if( !mal ){      /*acierta*/
-		guardaSec();//Guarda el valor aleatorio generado en ingr_datos
-		if( paso ==tam ){nivel++; gano=1; break;} //Se fija si gano el nivel
-		retardo(nivel);
+  		paso = dir_lectura = color_leido = leido = color_pulsado = 0;   
+		mal=false;		
+  		if(!gano){
+	    	tam=6;
+	    	demo();
+		}
+		
+		guardaSec();	//Guarda en la memoria eeprom el valor de la secuencia	el valor aleatorio generado en la demo   	
+   		/*inicia el modo juego*/ 
+		output_b(0x01);tono(4);delay_ms(150);
+		output_b(2);tono(3);delay_ms(150);
+		output_b(4);tono(2);delay_ms(150);
+		output_b(8);tono(1);delay_ms(150);
+		portb=0x00;delay_ms(1000);
 		mostrarSec();
+
+		while( paso < tam && !mal ){   /*verifica si acierta o si erra*/
+	    	//output_b(0x10);delay_ms(1000);output_b(0x20);delay_ms(1000);output_b(0x40);delay_ms(1000);output_b(0x80);delay_ms(1000);
+	    	ingr_datos();
+	    	if( !mal ){      /*acierta*/
+				guardaSec();//Guarda el valor aleatorio generado en ingr_datos
+				if( paso ==tam ){
+					nivel++; 
+					gano=1; 
+					break;
+				} //Se fija si gano el nivel
+				retardo(nivel);
+				mostrarSec();
+	    	}
+	    	else{    /*error*/
+				while(paso == 0){ //No se para que esta esto
+					portb=0x80;
+				}
+ 				nivel=0; 
+ 				gano = false;
+				output_b(0x0f);
+   				tono(5);		
+				output_b(0);
+				delay_ms(3000);
+      			paso=63;
+	    	}
+   		}
+   		if( gano ){
+	    	switch(tam){
+   			case 6:tam=9;break;
+   			case 9: tam=16;break;
+   			case 16: tam=21; break;
+			default: break; //case 21: tam=21;
 	    }
-	    else{    /*error*/
-		while(paso == 0){portb=0x80;}
- 		nivel=0; gano = false;
-		output_b(0x0f);
-   		tono(5);		
-		output_b(0);
-		delay_ms(3000);
-      		paso=63;
-	    }
-   	}
-   	if( gano ){
-	    switch(tam){
-   		case 6:tam=9;break;
-   		case 9: tam=16;break;
-   		case 16: tam=21; break;
-		default: break; //case 21: tam=21;
-	    }
-	    output_b(0x08);tono(1);delay_ms(300);output_b(0x04);tono(2);delay_ms(300);output_b(0x02);tono(3); delay_ms(300);
-	    output_b(0x01);tono(4);delay_ms(100);output_b(0);               
- 	}
+	    	output_b(0x08);tono(1);delay_ms(300);
+	    	output_b(0x04);tono(2);delay_ms(300);
+	    	output_b(0x02);tono(3); delay_ms(300);
+	    	output_b(0x01);tono(4);delay_ms(100);output_b(0);               
+ 		}
     }  /*fin while true*/ 
 }
 
@@ -256,15 +273,15 @@ void main (void){
 
 //Intento hacer funcion anti rebote
 void PedirTecla( void ){
-    if(input(PIN_A0)==0)
+    if(input(PIN_A0)==1)
 	CodigoActual=ROJO;
-    else if(input(PIN_A1)==0)
+    else if(input(PIN_A1)==1)
 	CodigoActual=VERDE;
-    else if(input(PIN_A1)==0)
+    else if(input(PIN_A2)==1)
 	CodigoActual=AMARILLO;
-    else if(input(PIN_A1)==0)
+    else if(input(PIN_A3)==1)
 	CodigoActual=AZUL;
-    else if(input(PIN_A1)==0)
+    else if(input(PIN_A4)==1)
 	CodigoActual=INICIO;
     else
 	CodigoActual=NO_KEY;
@@ -272,23 +289,22 @@ void PedirTecla( void ){
 
 void Board( void )
 {    
-    EstadosEstables = 0;    
+    estadoRebotes = EstadosEstables = 0;    
     PedirTecla();    
     CodigoAnterior = CodigoActual;
     key = NO_KEY;
     while (estadoRebotes != FinREBOTES){
-	
-	if(CodigoActual != CodigoAnterior || CodigoActual == NO_KEY ){
-	    estadoRebotes = FinREBOTES;
-	    CodigoActual = NO_KEY;
-	}
-	if( EstadosEstables >= CANTIDAD_DE_REBOTES )
-	{
-	    key = CodigoActual;                  // Acepto la nueva tecla
-	    estadoRebotes = FinREBOTES;
-	}
-	EstadosEstables++;
-	PedirTecla();
+		genera_aleatorio();
+		if(CodigoActual != CodigoAnterior || CodigoActual == NO_KEY ){
+	    	estadoRebotes = FinREBOTES;
+	    	CodigoActual = NO_KEY;
+		}
+		if( EstadosEstables >= CANTIDAD_DE_REBOTES )
+		{
+	    	key = CodigoActual;                  // Acepto la nueva tecla
+	    	estadoRebotes = FinREBOTES;
+		}
+		EstadosEstables++;
+		PedirTecla();
     }
 }    
-    
