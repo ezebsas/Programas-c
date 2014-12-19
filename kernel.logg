@@ -1,0 +1,1126 @@
+[INFO] 13:50:40:549 kernel/(21002:21002): Inicializando panel para kernel, en "/home/utnso/tp-2014-2c-mercurio/Kernel/kernel.logg"
+[INFO] 13:50:40:568 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 0, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 0, B: 0, C: 0, D: 0, E: 0 }
+  EXIT:
+
+[INFO] 13:50:41:215 kernel/(21002:21002): Nueva CPU (8) => [8]
+[INFO] 13:50:41:903 kernel/(21002:21002): Nueva CPU (9) => [8-9]
+[INFO] 13:50:42:972 kernel/(21002:21002): Nueva Consola (10) => [10]
+[INFO] 13:50:42:978 kernel/(21002:21012): Hilos ejecutando:
+  NEW:
+
+  READY:
+    { PID: 1, TID: 1, KM: 0, PC: 0, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 0, C: 0, D: 0, E: 0 }
+  EXEC:
+
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 0, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 0, B: 0, C: 0, D: 0, E: 0 }
+  EXIT:
+
+[INFO] 13:50:42:989 kernel/(21002:21012): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+    { PID: 1, TID: 1, KM: 0, PC: 0, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 0, C: 0, D: 0, E: 0 }
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 0, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 0, B: 0, C: 0, D: 0, E: 0 }
+  EXIT:
+
+[INFO] 13:50:43:96 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+    { PID: 1, TID: 1, KM: 0, PC: 9, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 0, C: 20, D: 0, E: 0 }
+  EXEC:
+
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 0, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 0, B: 0, C: 0, D: 0, E: 0 }
+  EXIT:
+
+[INFO] 13:50:43:97 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+    { PID: 1, TID: 1, KM: 0, PC: 9, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 0, C: 20, D: 0, E: 0 }
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 0, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 0, B: 0, C: 0, D: 0, E: 0 }
+  EXIT:
+
+[INFO] 13:50:43:216 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+    { PID: 1, TID: 1, KM: 0, PC: 18, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 0, C: 20, D: 0, E: 0 }
+  EXEC:
+
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 0, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 0, B: 0, C: 0, D: 0, E: 0 }
+  EXIT:
+
+[INFO] 13:50:43:217 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+    { PID: 1, TID: 1, KM: 0, PC: 18, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 0, C: 20, D: 0, E: 0 }
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 0, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 0, B: 0, C: 0, D: 0, E: 0 }
+  EXIT:
+
+[INFO] 13:50:43:331 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+    { PID: 1, TID: 1, KM: 0, PC: 27, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 0, C: 20, D: 27, E: 0 }
+  EXEC:
+
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 0, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 0, B: 0, C: 0, D: 0, E: 0 }
+  EXIT:
+
+[INFO] 13:50:43:332 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+    { PID: 1, TID: 1, KM: 0, PC: 27, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 0, C: 20, D: 27, E: 0 }
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 0, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 0, B: 0, C: 0, D: 0, E: 0 }
+  EXIT:
+
+[INFO] 13:50:43:444 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+    { PID: 1, TID: 1, KM: 0, PC: 32, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 1, C: 20, D: 27, E: 0 }
+  EXEC:
+
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 0, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 0, B: 0, C: 0, D: 0, E: 0 }
+  EXIT:
+
+[INFO] 13:50:43:445 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+    { PID: 1, TID: 1, KM: 0, PC: 32, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 1, C: 20, D: 27, E: 0 }
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 0, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 0, B: 0, C: 0, D: 0, E: 0 }
+  EXIT:
+
+[INFO] 13:50:43:557 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+    { PID: 1, TID: 1, KM: 0, PC: 38, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  EXEC:
+
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 0, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 0, B: 0, C: 0, D: 0, E: 0 }
+  EXIT:
+
+[INFO] 13:50:43:558 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+    { PID: 1, TID: 1, KM: 0, PC: 38, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 0, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 0, B: 0, C: 0, D: 0, E: 0 }
+  EXIT:
+
+[INFO] 13:50:43:675 kernel/(21002:21002): El hilo { PID: 1, TID: 1 } ejecutó la instrucción INTE
+[INFO] 13:50:43:676 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 0, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 0, B: 0, C: 0, D: 0, E: 0 }    { PID: 1, TID: 1, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:43:683 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+    { PID: 1, TID: 1, KM: 1, PC: 76, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  BLOCK:
+    { PID: 1, TID: 1, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:44:128 kernel/(21002:21002): El hilo { PID: 1, TID: 1 } ejecutó la instrucción OUTN
+[INFO] 13:50:44:557 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 108, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }    { PID: 1, TID: 1, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:44:561 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+    { PID: 1, TID: 1, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  EXEC:
+
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 108, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:44:565 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+    { PID: 1, TID: 1, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 108, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:44:684 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+    { PID: 1, TID: 1, KM: 0, PC: 52, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 1, C: 20, D: 27, E: 0 }
+  EXEC:
+
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 108, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:44:688 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+    { PID: 1, TID: 1, KM: 0, PC: 52, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 1, C: 20, D: 27, E: 0 }
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 108, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:44:805 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+    { PID: 1, TID: 1, KM: 0, PC: 60, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 1, C: 20, D: 27, E: 0 }
+  EXEC:
+
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 108, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:44:807 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+    { PID: 1, TID: 1, KM: 0, PC: 60, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 1, C: 20, D: 27, E: 0 }
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 108, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:44:920 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+    { PID: 1, TID: 1, KM: 0, PC: 27, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 1, C: 20, D: 27, E: 0 }
+  EXEC:
+
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 108, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:44:928 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+    { PID: 1, TID: 1, KM: 0, PC: 27, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 1, C: 20, D: 27, E: 0 }
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 108, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:45:44 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+    { PID: 1, TID: 1, KM: 0, PC: 32, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 2, C: 20, D: 27, E: 0 }
+  EXEC:
+
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 108, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:45:50 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+    { PID: 1, TID: 1, KM: 0, PC: 32, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 2, C: 20, D: 27, E: 0 }
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 108, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:45:163 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+    { PID: 1, TID: 1, KM: 0, PC: 38, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 2, B: 2, C: 20, D: 27, E: 0 }
+  EXEC:
+
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 108, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:45:165 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+    { PID: 1, TID: 1, KM: 0, PC: 38, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 2, B: 2, C: 20, D: 27, E: 0 }
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 108, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:45:289 kernel/(21002:21002): El hilo { PID: 1, TID: 1 } ejecutó la instrucción INTE
+[INFO] 13:50:45:291 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 108, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }    { PID: 1, TID: 1, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 2, B: 2, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:45:299 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+    { PID: 1, TID: 1, KM: 1, PC: 76, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 2, B: 2, C: 20, D: 27, E: 0 }
+  BLOCK:
+    { PID: 1, TID: 1, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 2, B: 2, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:45:722 kernel/(21002:21002): El hilo { PID: 1, TID: 1 } ejecutó la instrucción OUTN
+[INFO] 13:50:46:165 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 108, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 2, B: 2, C: 20, D: 27, E: 0 }    { PID: 1, TID: 1, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 2, B: 2, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:46:169 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+    { PID: 1, TID: 1, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 2, B: 2, C: 20, D: 27, E: 0 }
+  EXEC:
+
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 108, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 2, B: 2, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:46:175 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+    { PID: 1, TID: 1, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 2, B: 2, C: 20, D: 27, E: 0 }
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 108, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 2, B: 2, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:46:288 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+    { PID: 1, TID: 1, KM: 0, PC: 52, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 2, C: 20, D: 27, E: 0 }
+  EXEC:
+
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 108, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 2, B: 2, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:46:289 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+    { PID: 1, TID: 1, KM: 0, PC: 52, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 2, C: 20, D: 27, E: 0 }
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 108, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 2, B: 2, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:46:399 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+    { PID: 1, TID: 1, KM: 0, PC: 60, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 2, C: 20, D: 27, E: 0 }
+  EXEC:
+
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 108, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 2, B: 2, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:46:401 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+    { PID: 1, TID: 1, KM: 0, PC: 60, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 2, C: 20, D: 27, E: 0 }
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 108, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 2, B: 2, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:46:491 kernel/(21002:21002): Nueva Consola (11) => [10-11]
+[INFO] 13:50:46:495 kernel/(21002:21015): Hilos ejecutando:
+  NEW:
+
+  READY:
+    { PID: 2, TID: 2, KM: 0, PC: 0, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 0, C: 0, D: 0, E: 0 }
+  EXEC:
+    { PID: 1, TID: 1, KM: 0, PC: 60, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 2, C: 20, D: 27, E: 0 }
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 108, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 2, B: 2, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:46:506 kernel/(21002:21015): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+    { PID: 1, TID: 1, KM: 0, PC: 60, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 2, C: 20, D: 27, E: 0 }    { PID: 2, TID: 2, KM: 0, PC: 0, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 0, C: 0, D: 0, E: 0 }
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 108, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 2, B: 2, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:46:516 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+    { PID: 1, TID: 1, KM: 0, PC: 27, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 2, C: 20, D: 27, E: 0 }
+  EXEC:
+    { PID: 2, TID: 2, KM: 0, PC: 0, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 0, C: 0, D: 0, E: 0 }
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 108, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 2, B: 2, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:46:517 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+    { PID: 1, TID: 1, KM: 0, PC: 27, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 2, C: 20, D: 27, E: 0 }    { PID: 2, TID: 2, KM: 0, PC: 0, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 0, C: 0, D: 0, E: 0 }
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 108, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 2, B: 2, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:46:608 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+    { PID: 2, TID: 2, KM: 0, PC: 9, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 0, C: 20, D: 0, E: 0 }
+  EXEC:
+    { PID: 1, TID: 1, KM: 0, PC: 27, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 2, C: 20, D: 27, E: 0 }
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 108, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 2, B: 2, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:46:616 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+    { PID: 1, TID: 1, KM: 0, PC: 27, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 2, C: 20, D: 27, E: 0 }    { PID: 2, TID: 2, KM: 0, PC: 9, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 0, C: 20, D: 0, E: 0 }
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 108, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 2, B: 2, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:46:623 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+    { PID: 1, TID: 1, KM: 0, PC: 32, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 3, C: 20, D: 27, E: 0 }
+  EXEC:
+    { PID: 2, TID: 2, KM: 0, PC: 9, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 0, C: 20, D: 0, E: 0 }
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 108, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 2, B: 2, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:46:630 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+    { PID: 1, TID: 1, KM: 0, PC: 32, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 3, C: 20, D: 27, E: 0 }    { PID: 2, TID: 2, KM: 0, PC: 9, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 0, C: 20, D: 0, E: 0 }
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 108, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 2, B: 2, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:46:721 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+    { PID: 2, TID: 2, KM: 0, PC: 18, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 0, C: 20, D: 0, E: 0 }
+  EXEC:
+    { PID: 1, TID: 1, KM: 0, PC: 32, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 3, C: 20, D: 27, E: 0 }
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 108, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 2, B: 2, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:46:722 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+    { PID: 1, TID: 1, KM: 0, PC: 32, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 3, C: 20, D: 27, E: 0 }    { PID: 2, TID: 2, KM: 0, PC: 18, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 0, C: 20, D: 0, E: 0 }
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 108, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 2, B: 2, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:46:732 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+    { PID: 1, TID: 1, KM: 0, PC: 38, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 3, B: 3, C: 20, D: 27, E: 0 }
+  EXEC:
+    { PID: 2, TID: 2, KM: 0, PC: 18, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 0, C: 20, D: 0, E: 0 }
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 108, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 2, B: 2, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:46:733 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+    { PID: 1, TID: 1, KM: 0, PC: 38, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 3, B: 3, C: 20, D: 27, E: 0 }    { PID: 2, TID: 2, KM: 0, PC: 18, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 0, C: 20, D: 0, E: 0 }
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 108, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 2, B: 2, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:46:846 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+    { PID: 2, TID: 2, KM: 0, PC: 27, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 0, C: 20, D: 27, E: 0 }
+  EXEC:
+    { PID: 1, TID: 1, KM: 0, PC: 38, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 3, B: 3, C: 20, D: 27, E: 0 }
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 108, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 2, B: 2, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:46:858 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+    { PID: 1, TID: 1, KM: 0, PC: 38, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 3, B: 3, C: 20, D: 27, E: 0 }    { PID: 2, TID: 2, KM: 0, PC: 27, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 0, C: 20, D: 27, E: 0 }
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 108, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 2, B: 2, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:46:864 kernel/(21002:21002): El hilo { PID: 1, TID: 1 } ejecutó la instrucción INTE
+[INFO] 13:50:46:866 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+    { PID: 2, TID: 2, KM: 0, PC: 27, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 0, C: 20, D: 27, E: 0 }
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 108, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 2, B: 2, C: 20, D: 27, E: 0 }    { PID: 1, TID: 1, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 3, B: 3, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:46:876 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+    { PID: 1, TID: 1, KM: 1, PC: 76, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 3, B: 3, C: 20, D: 27, E: 0 }    { PID: 2, TID: 2, KM: 0, PC: 27, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 0, C: 20, D: 27, E: 0 }
+  BLOCK:
+    { PID: 1, TID: 1, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 3, B: 3, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:46:987 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+    { PID: 2, TID: 2, KM: 0, PC: 32, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 1, C: 20, D: 27, E: 0 }
+  EXEC:
+    { PID: 1, TID: 1, KM: 1, PC: 76, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 3, B: 3, C: 20, D: 27, E: 0 }
+  BLOCK:
+    { PID: 1, TID: 1, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 3, B: 3, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:46:987 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+    { PID: 1, TID: 1, KM: 1, PC: 76, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 3, B: 3, C: 20, D: 27, E: 0 }    { PID: 2, TID: 2, KM: 0, PC: 32, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 1, C: 20, D: 27, E: 0 }
+  BLOCK:
+    { PID: 1, TID: 1, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 3, B: 3, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:47:98 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+    { PID: 2, TID: 2, KM: 0, PC: 38, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  EXEC:
+    { PID: 1, TID: 1, KM: 1, PC: 76, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 3, B: 3, C: 20, D: 27, E: 0 }
+  BLOCK:
+    { PID: 1, TID: 1, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 3, B: 3, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:47:99 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+    { PID: 1, TID: 1, KM: 1, PC: 76, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 3, B: 3, C: 20, D: 27, E: 0 }    { PID: 2, TID: 2, KM: 0, PC: 38, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  BLOCK:
+    { PID: 1, TID: 1, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 3, B: 3, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:47:212 kernel/(21002:21002): El hilo { PID: 2, TID: 2 } ejecutó la instrucción INTE
+[INFO] 13:50:47:212 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+    { PID: 1, TID: 1, KM: 1, PC: 76, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 3, B: 3, C: 20, D: 27, E: 0 }    { PID: 2, TID: 2, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  BLOCK:
+    { PID: 1, TID: 1, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 3, B: 3, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:47:322 kernel/(21002:21002): El hilo { PID: 1, TID: 1 } ejecutó la instrucción OUTN
+[INFO] 13:50:47:746 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+    { PID: 2, TID: 2, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 108, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 3, B: 3, C: 20, D: 27, E: 0 }    { PID: 1, TID: 1, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 3, B: 3, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:47:746 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 108, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 3, B: 3, C: 20, D: 27, E: 0 }    { PID: 1, TID: 1, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 3, B: 3, C: 20, D: 27, E: 0 }    { PID: 2, TID: 2, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:47:746 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+    { PID: 2, TID: 2, KM: 1, PC: 76, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  BLOCK:
+    { PID: 1, TID: 1, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 3, B: 3, C: 20, D: 27, E: 0 }    { PID: 2, TID: 2, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:47:746 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+    { PID: 1, TID: 1, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 3, B: 3, C: 20, D: 27, E: 0 }
+  EXEC:
+    { PID: 2, TID: 2, KM: 1, PC: 76, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  BLOCK:
+    { PID: 2, TID: 2, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:47:747 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+    { PID: 2, TID: 2, KM: 1, PC: 76, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }    { PID: 1, TID: 1, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 3, B: 3, C: 20, D: 27, E: 0 }
+  BLOCK:
+    { PID: 2, TID: 2, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:47:864 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+    { PID: 1, TID: 1, KM: 0, PC: 52, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 3, C: 20, D: 27, E: 0 }
+  EXEC:
+    { PID: 2, TID: 2, KM: 1, PC: 76, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  BLOCK:
+    { PID: 2, TID: 2, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:47:874 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+    { PID: 2, TID: 2, KM: 1, PC: 76, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }    { PID: 1, TID: 1, KM: 0, PC: 52, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 3, C: 20, D: 27, E: 0 }
+  BLOCK:
+    { PID: 2, TID: 2, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:47:980 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+    { PID: 1, TID: 1, KM: 0, PC: 60, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 3, C: 20, D: 27, E: 0 }
+  EXEC:
+    { PID: 2, TID: 2, KM: 1, PC: 76, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  BLOCK:
+    { PID: 2, TID: 2, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:47:981 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+    { PID: 2, TID: 2, KM: 1, PC: 76, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }    { PID: 1, TID: 1, KM: 0, PC: 60, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 3, C: 20, D: 27, E: 0 }
+  BLOCK:
+    { PID: 2, TID: 2, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:48:96 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+    { PID: 1, TID: 1, KM: 0, PC: 27, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 3, C: 20, D: 27, E: 0 }
+  EXEC:
+    { PID: 2, TID: 2, KM: 1, PC: 76, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  BLOCK:
+    { PID: 2, TID: 2, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:48:102 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+    { PID: 2, TID: 2, KM: 1, PC: 76, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }    { PID: 1, TID: 1, KM: 0, PC: 27, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 3, C: 20, D: 27, E: 0 }
+  BLOCK:
+    { PID: 2, TID: 2, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:48:209 kernel/(21002:21002): El hilo { PID: 2, TID: 2 } ejecutó la instrucción OUTN
+[INFO] 13:50:48:214 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+    { PID: 1, TID: 1, KM: 0, PC: 32, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 4, C: 20, D: 27, E: 0 }
+  EXEC:
+    { PID: 2, TID: 2, KM: 1, PC: 76, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  BLOCK:
+    { PID: 2, TID: 2, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:48:214 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+    { PID: 2, TID: 2, KM: 1, PC: 76, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }    { PID: 1, TID: 1, KM: 0, PC: 32, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 0, B: 4, C: 20, D: 27, E: 0 }
+  BLOCK:
+    { PID: 2, TID: 2, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:48:327 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+    { PID: 1, TID: 1, KM: 0, PC: 38, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 4, B: 4, C: 20, D: 27, E: 0 }
+  EXEC:
+    { PID: 2, TID: 2, KM: 1, PC: 76, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  BLOCK:
+    { PID: 2, TID: 2, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:48:327 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+    { PID: 2, TID: 2, KM: 1, PC: 76, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }    { PID: 1, TID: 1, KM: 0, PC: 38, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 4, B: 4, C: 20, D: 27, E: 0 }
+  BLOCK:
+    { PID: 2, TID: 2, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:48:437 kernel/(21002:21002): El hilo { PID: 1, TID: 1 } ejecutó la instrucción INTE
+[INFO] 13:50:48:437 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+    { PID: 2, TID: 2, KM: 1, PC: 76, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }    { PID: 1, TID: 1, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 4, B: 4, C: 20, D: 27, E: 0 }
+  BLOCK:
+    { PID: 2, TID: 2, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:48:639 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+    { PID: 1, TID: 1, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 4, B: 4, C: 20, D: 27, E: 0 }
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 108, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }    { PID: 2, TID: 2, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:48:640 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 108, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }    { PID: 1, TID: 1, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 4, B: 4, C: 20, D: 27, E: 0 }    { PID: 2, TID: 2, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:48:642 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+    { PID: 1, TID: 1, KM: 1, PC: 76, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 4, B: 4, C: 20, D: 27, E: 0 }
+  BLOCK:
+    { PID: 1, TID: 1, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 4, B: 4, C: 20, D: 27, E: 0 }    { PID: 2, TID: 2, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:48:642 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+    { PID: 2, TID: 2, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  EXEC:
+    { PID: 1, TID: 1, KM: 1, PC: 76, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 4, B: 4, C: 20, D: 27, E: 0 }
+  BLOCK:
+    { PID: 1, TID: 1, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 4, B: 4, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:48:642 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+    { PID: 1, TID: 1, KM: 1, PC: 76, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 4, B: 4, C: 20, D: 27, E: 0 }    { PID: 2, TID: 2, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  BLOCK:
+    { PID: 1, TID: 1, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 4, B: 4, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:49:66 kernel/(21002:21002): El hilo { PID: 1, TID: 1 } ejecutó la instrucción OUTN
+[INFO] 13:50:49:496 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+    { PID: 2, TID: 2, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 108, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 4, B: 4, C: 20, D: 27, E: 0 }    { PID: 1, TID: 1, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 4, B: 4, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:49:496 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+    { PID: 1, TID: 1, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 4, B: 4, C: 20, D: 27, E: 0 }
+  EXEC:
+    { PID: 2, TID: 2, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 108, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 4, B: 4, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:49:497 kernel/(21002:21002): Hilos ejecutando:
+  NEW:
+
+  READY:
+
+  EXEC:
+    { PID: 1, TID: 1, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 4, B: 4, C: 20, D: 27, E: 0 }    { PID: 2, TID: 2, KM: 0, PC: 46, M: 0 (69b) }
+      { X: 1048576, S: 1048576, A: 1, B: 1, C: 20, D: 27, E: 0 }
+  BLOCK:
+    { PID: 0, TID: 0, KM: 1, PC: 108, M: 0 (332b) }
+      { X: 1048576, S: 1048576, A: 4, B: 4, C: 20, D: 27, E: 0 }
+  EXIT:
+
+[INFO] 13:50:49:728 kernel/(21002:21002): El hilo { PID: 0, TID: 0 } ejecutó la instrucción MALC
